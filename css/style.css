@@ -1,5 +1,5 @@
     body {
-        background-image: url(images/pattern-background-desktop.svg);
+        background-image: url('/images/pattern-background-desktop.svg');
         background-repeat: no-repeat;
         background-size: contain;
         font-family: 'Red Hat Display', sans-serif;
@@ -25,7 +25,8 @@
         background-color: white;
     }
     
-    .container :not(div, button) {
+    .container :not(div,
+    button) {
         border-top-left-radius: 25px;
         border-top-right-radius: 25px;
     }
