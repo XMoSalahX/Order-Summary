@@ -12,11 +12,11 @@
     
     .container {
         width: 450px;
-        border-radius: 5%;
-        -webkit-border-radius: 5%;
-        -moz-border-radius: 5%;
-        -ms-border-radius: 5%;
-        -o-border-radius: 5%;
+        border-radius: 25px;
+        -webkit-border-radius: 25px;
+        -moz-border-radius: 25px;
+        -ms-border-radius: 25px;
+        -o-border-radius: 25px;
         box-shadow: -7px -3px 46px -14px black;
         display: flex;
         flex-direction: column;
@@ -26,8 +26,8 @@
     }
     
     .container :not(div, button) {
-        border-top-left-radius: 4% 10%;
-        border-top-right-radius: 4% 10%;
+        border-top-left-radius: 25px;
+        border-top-right-radius: 25px;
     }
     
     h2,
