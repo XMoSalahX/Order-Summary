@@ -39,7 +39,7 @@
         text-align: center;
     }
     
-    h2 {
+    h1 {
         font-weight: 900;
         font-size: bold;
     }
@@ -61,7 +61,7 @@
     }
     
     .first-plann p,
-    h3 {
+    h2 {
         margin: 0 5px 0 20px;
         text-align: left;
     }
@@ -120,4 +120,8 @@
     
     h1 {
         font-size: 26px;
+    }
+    
+    h2 {
+        font-size: 18px;
     }
