@@ -1,13 +1,17 @@
     body {
-        background-image: url('../images/pattern-background-desktop.svg');
+        background-image: url(../images/pattern-background-desktop.svg);
         background-repeat: no-repeat;
         background-size: contain;
         font-family: 'Red Hat Display', sans-serif;
+        position: relative;
+    }
+    
+    main {
         display: flex;
         justify-content: center;
         align-items: center;
-        position: relative;
-        margin-top: 5%;
+        width: 100%;
+        margin-top: 6.8%;
     }
     
     .container {
@@ -25,13 +29,12 @@
         background-color: white;
     }
     
-    .container :not(div,
-    button) {
+    .container :not(div, button) {
         border-top-left-radius: 25px;
         border-top-right-radius: 25px;
     }
     
-    h2,
+    h1,
     p {
         text-align: center;
     }
@@ -111,7 +114,10 @@
     }
     
     .attribution {
-        position: absolute;
-        bottom: -15%;
-        margin-bottom: 10px;
+        text-align: center;
+        margin-top: 10px;
+    }
+    
+    h1 {
+        font-size: 26px;
     }
